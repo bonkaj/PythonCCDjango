@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Base Template</title>
 </head>
 <body>
+<p>
+    <a ref="{% url 'learning_logs:index' %}">Learning Log</a>
+</p>
 
+{% block content %}{% endblock content %}
 </body>
 </html>
